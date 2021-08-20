@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+
+body{
+    background-image: linear-gradient(to right,#AC70C1,#7093C1);
+}
+/* header */
+.cor-nav{
+    background-color: #232323;
+}
+.h1{
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    font-size:2em;
+    color: #ffffff;
+}
