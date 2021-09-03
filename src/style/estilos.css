@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+:root{
+    --cor01: #7093C1;
+    --cor02: #C284AD;
+    --cor03: #232323;
+
+}
+
 
 body{
-    background-image: linear-gradient(to right,#AC70C1,#7093C1);
+    background-image: linear-gradient(to right,#C284AD,#7093C1);
 }
 /* header */
 .cor-nav{
-    background-color: #232323;
+    background-color: var(--cor03);
 }
 .h1{
     font-family: 'Bungee Shade', cursive;
@@ -26,4 +33,18 @@ article > h2{
 
 article.musica{
     max-width: 400px;
+}
+
+
+footer{
+    background-color: var(--cor03);
+    color: whitesmoke;
+}
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
 }
