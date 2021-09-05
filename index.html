@@ -41,13 +41,13 @@
                 <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-link text-white hover" href="#">Estudos</a>
+                            <a class="nav-link text-white hover" href="#conhecimentos">Estudos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Projetos</a>
+                            <a class="nav-link text-white " href="#projetos">Projetos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled text-white" href="#" tabindex="-1"
+                            <a class="nav-link  text-white hover" href="#contrate" tabindex="-1"
                                 aria-disabled="true">Contrate</a>
                         </li>
                     </ul>
@@ -86,11 +86,22 @@
         </section>
 
         <!-- Ultimo Trabalho -->
-        <section >
-            <div class="container ">
-                <div class="row">
+        <section id="projetos" >
+            <div class="container  ">
+                <div class="row d-flex justify-content-center">
                     <div class="col">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card trabalhos" >
+                            <img src="src/img/html e css.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">HTML e CSS</h5>
+                                <p class="card-text text-center">Fiz Um "caderno virtual" para conseguir me organizar a estudar HTML e CSS, obrigado ao 
+                                    <a href="https://www.cursoemvideo.com/" target="_blank" class="link-card" >Curso em video</a> Por meu Ajudar nesse começo de carreira </p>
+                                <a href="https://diogozura.github.io/html-css/" class="btn btn-primary ">Confira</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col">
+                        <div class="card trabalhos" >
                             <img src="..." class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
@@ -101,7 +112,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card trabalhos" >
                             <img src="..." class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
@@ -110,25 +121,14 @@
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
 
 
         <!-- conhecimentos -->
-        <section>
+        <section id="conhecimentos">
             <div class="container-fluid conhecimentos blocoDeImg">
                 <picture class="img">
                     <img src="https://img.icons8.com/color/96/000000/javascript--v1.png" />
@@ -146,19 +146,32 @@
         </section>
 
         <!-- vamos trabalhar juntos -->
-        <section class="text-center">
+        <section id="contrate" class="text-center">
             <h3>
-                <a href="" class="link">Vamos trabalhar Juntos?</a>
+                <a href="https://t.me/Diogozura" target="_blank" class="link">Vamos trabalhar Juntos?</a>
             </h3>
         </section>
 
         <!-- redes socicias -->
-        <section class="contato d-flex">
-            <aside id="Contato" class="contato blocoDeImg">
-                <picture>
-                    <img src="https://img.icons8.com/nolan/96/github.png"/>
-                </picture>
-            </aside>
+        <section >
+            <div class="container mb-5">
+                <aside id="Contato" class="contato">
+                    <picture class="img">
+
+                        <a href="https://github.com/diogozura" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/96/github.png"/></a>
+                
+                        <a href="https://t.me/Diogozura" target="_blank"><img src="https://img.icons8.com/nolan/96/telegram-app.png"/></a>
+                        
+                        <a href="https://www.linkedin.com/in/diogo-silva-santos-251bb5192/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/96/linkedin.png"/></a>
+            
+                        <a href="https://open.spotify.com/user/af0k7et4r5142qhcsaqboi5ne?si=7fc2e58431f948d2" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/96/spotify.png"/></a>
+                        
+                        <a href="https://medium.com/@diogozura" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/nolan/96/medium-new.png"/></a>
+                        
+                    </picture>
+                </aside>
+            </div>
+            
         </section>
 
         <footer class="text-center m-0">

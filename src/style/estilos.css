@@ -47,6 +47,14 @@ picture>img.diogo{
     /* justify-content: center; */
     align-items: center;
 }
+.trabalhos{
+    width: 300px;
+    display: flex;
+}
+.link-card{
+    color: red;
+    text-decoration: none;
+}
 
 
 
@@ -67,7 +75,10 @@ picture>img.diogo{
 } 
 
 .contato{
-    width: 500px;
+    max-width: 100%;
+
+    background-color: var(--cor03);
+    border-radius: 10px;
 
     display: flex;
     justify-content: center;
@@ -81,6 +92,7 @@ footer{
     text-decoration: none;
     color: whitesmoke;
 }
+
 a:hover{
     text-decoration: underline;
     color: whitesmoke;
