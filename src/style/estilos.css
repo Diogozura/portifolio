@@ -87,6 +87,7 @@ picture>img.diogo{
 footer{
     background-color: var(--cor03);
     color: whitesmoke;
+    padding: 5px;
 }
 .link{
     text-decoration: none;
