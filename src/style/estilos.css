@@ -34,7 +34,7 @@ picture{
 }
 picture>img.diogo{
     width: 300px;
-    height: 350px;
+    height: 320px;
     border-radius: 10px;
 }
 .card-eu{
@@ -50,6 +50,10 @@ picture>img.diogo{
 .trabalhos{
     width: 300px;
     display: flex;
+}
+.img-cards{
+    width: 298px;
+    height: 265px;
 }
 .link-card{
     color: red;
