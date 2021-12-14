@@ -33,12 +33,12 @@ picture{
     justify-content: center;
 }
 picture>img.diogo{
-    width: 300px;
-    height: 320px;
+    width: 400px;
+    height: 400px;
     border-radius: 10px;
 }
 .card-eu{
-    width: 350px;
+    width: 450px;
     border-radius: 10px;
 }
 .quemsou{
