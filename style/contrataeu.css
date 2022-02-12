@@ -19,6 +19,13 @@
     font-size: 1.3em;
     color: #FFF;
 }
+.contrata-icon:hover{
+    background-color: #FFF;
+    border-radius: 50px;
+}.contrata-icon1:hover{
+    background-color: #FFF;
+    border-radius: 10px;
+}
 
 @media only screen and  (max-width:900px){
     .contrata-eu{
