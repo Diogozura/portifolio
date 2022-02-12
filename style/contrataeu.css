@@ -1,0 +1,27 @@
+.contrata-eu{
+    background-color: rgba(255, 255, 255, 0.158);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 10px;
+}
+.contrata-eu>ul{
+    text-align: left;
+    color: #FFF;
+    font-size: 1.2em;
+}
+.contrata-eu>h3{
+    font-size: 1.5em;
+}
+.contrata-eu>p{
+    font-size: 1.3em;
+    color: #FFF;
+}
+
+@media only screen and  (max-width:900px){
+    .contrata-eu{
+        width: 100%;
+    }
+}
